@@ -1,0 +1,21 @@
+/* 
+    Document   : product-gallery
+    Created on : Jul 5, 2011, 5:44:16 PM
+    Author     : Pietas Server
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.infiniteCarousel{width:100%;position:relative;height:27px;margin:2px 0 65px 0;}
+.infiniteCarousel .gallery{width:100%;overflow:hidden;height:100px;margin:0 25px;position:absolute;top:0;}
+.infiniteCarousel .gallery ul{width:9999px;list-style-type:none;margin:0;padding:0;position:absolute;top:0;}
+.infiniteCarousel ul li{display:block;float:left;height:90px;width:134px;}
+.infiniteCarousel ul li a img{display:block;height:90px;width:134px;border:none;}
+.infiniteCarousel .arrow{display:block;height:94px;width:24px;text-indent:-999px;position:absolute;cursor:pointer;}
+.infiniteCarousel .forward{right:0;background:url(images/arrow-right.jpg) no-repeat 0 0;}
+.infiniteCarousel .back{background:url(images/arrow-left.jpg) no-repeat 0 0;}
